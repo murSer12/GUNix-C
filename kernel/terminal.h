@@ -1,6 +1,6 @@
 void terminal()
 {
-  while (true) {
+  while (1) {
     char input[] = "";
     printf("root@gunix : ");
     scanf("%s" , input);
