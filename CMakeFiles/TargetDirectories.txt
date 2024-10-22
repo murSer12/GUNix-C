@@ -1,3 +1,0 @@
-/home/mur/Документы/GUNix-C/CMakeFiles/gunixc.dir
-/home/mur/Документы/GUNix-C/CMakeFiles/edit_cache.dir
-/home/mur/Документы/GUNix-C/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,7 @@
-bool engish_setted;
+int engish_setted;
 char language[] = "";
 char en_US[] = "en_US.UTF8";
-bool root_pass_bool = false;
+int root_pass_bool = 0;
 char root_pass[] = "";
 
 void language_show()
@@ -26,7 +26,7 @@ void language_set()
 
 void passwd()
 {
-  if(root_pass_bool){
+  if(root_pass_bool == 1){
     printf("Root already has password!\n");
   }
   else {
@@ -36,16 +36,16 @@ void passwd()
     printf("Retype your password : ");
     scanf("%s" , root_pass_test);
     if(strcmp(root_pass_test , root_pass) == 0){
-      root_pass_bool = true;
+      root_pass_bool = 1;
       printf("Root password successfully created!\n");
     }
     else {
-      while(true){
+      while(1){
        printf("Wrong password , retype password again!\n");
        printf("Retype your password : ");
        scanf("%s" , root_pass_test);
        if(strcmp(root_pass_test , root_pass) == 0){
-         root_pass_bool = true;
+         root_pass_bool = 1;
          printf("Root password successfully created!\n");
          break;
        }
