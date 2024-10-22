@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/gunixc.dir/main.c.o -o gunixc
